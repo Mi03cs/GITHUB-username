@@ -1,0 +1,29 @@
+table, th, td {
+        border:1px solid black;
+        border-spacing:10px;
+        }
+    table, tr, th, td {
+        border:1px solid black;
+        border-radius:50px;
+        border-style:dashed;
+        border-color: rgb(181, 6, 143);
+        color: #080606;
+        background-color:#a8e1eb81;
+        border: top 3px;;
+        text-align:center;
+        
+    }
+    th{
+        font-style:italic;
+        font-size: medium;
+    }
+    th, td {
+         /* padding:10px; */
+    }
+    caption{
+        text-decoration:underline;
+        font-size:30px;
+    }
+    tr :nth-child(even){
+        background-color:white;
+    }

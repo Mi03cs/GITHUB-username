@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+</head>
+<style>
+    img{
+        width:70%;
+    }
+</style>
+<body>
+    <img src="https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_640.jpg" alt="Dice Rolling" width="150px" height="150px">
+    <img src="https://cdn.pixabay.com/photo/2016/07/07/16/46/dice-1502706_640.jpg" alt="Dice Rolling" style="width: 200px;height: 200px;">
+    <br>
+    <br>
+    <P style="text-align: center;"> Show Animated pics</P>
+    <img src="https://64.media.tumblr.com/tumblr_mbcariEkp21rdkipfo1_r1_500.gif" alt=" Animated picture" style="width: 250px; height: 250px;">
+    <br>
+    <br>
+    <strong style="text-align: center;"> Image shown instead of link Click image to go to the link</strong>
+    <br>
+    <a href="https://www.researchgate.net/" target="_self">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgsvYYCWsMWlofsXiRS2A5hq4iBNbx7NlNvw&s" alt="researchgate Page" style="width: 100px; height: 100px;">
+    </a><br> <br>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV4UlS1Ehv87B7_HRdQWlKz8Jw13A0zxuiuQ&s" alt="man in black t shirt" style="float:right; width: 70px; height: 100px;"> <br> <br> <br>
+
+    <h2 style="text-align: center; width: 200px; height: 20p0x;"> Map images </h2> <br>
+
+    <img src="https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_640.jpg" alt=" show work place" usemap="#mymap" style=" float: right; width: 400px; height: 400px;">
+    <map name="mymap">
+        <area shape="rect" coords="200,100,500,300" href="https://www.blackbox.ai/" alt="Computer" onclick="myFunction()">
+        <area shape="rect" coords="600,250,600,350" href="https://github.com/" alt="Mobile" onclick="myFunction()>
+        <area shape="circle" coords="100,150,30" href="https://matlab.mathworks.com/" alt="Coffe Cup" onclick="myFunction()>
+    </map> <br>  <br>
+    <pre> If we click on laptop we will go to black box ai
+If we click on Mobile we will go to Github
+If we click on Coffee Cup we will go to Matlab</pre>  <br> <br> <br>
+
+<h3 style="text-align: center;"> Image Map & Js Function OnClick</h3>
+
+<script>
+    function myFunction() {
+      alert("Do U want to Go to page behind Image");
+    }
+    </script>
+    
+</body>
+</html>
