@@ -1,0 +1,147 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', cursive, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #07663ecc;
+    transition: background 1s ease;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(33, 07, 95, 0.5);
+    border-radius: 10px;
+    animation: fadeIn 2s ease-in-out;
+}
+header:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: background 0.5s ease;
+}
+
+h1, h2 {
+    color: #6222ac;
+    transition: color 0.5s ease;
+}
+
+header h1:hover {
+    color: #ff4500;
+}
+header h2:hover {
+    color: #c52a65;
+}
+
+     /* Image Styling  */
+    img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #d61d98;
+    transition: transform 0.5s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Section Styling */
+section {
+    background-color: rgba(33, 7, 95, 0.5);
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 20px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+section:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: background 0.5s ease;
+}
+
+h2 {
+    color: #eb3791;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    transition: color 0.5s ease;
+}
+
+li:hover {
+    color: #ff4500;
+}
+
+a {
+    color: #c52a65;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+a:hover {
+    color: #ff4500;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #ffffff;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+        background-position: center;
+    }
+
+    header, section, footer {
+        padding: 15px;
+    }
+
+    img {
+        width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header h2 {
+        font-size: 1.2em;
+    }
+
+    img {
+        width: 100px;
+    }
+
+    section {
+        padding: 10px;
+    }
+}
